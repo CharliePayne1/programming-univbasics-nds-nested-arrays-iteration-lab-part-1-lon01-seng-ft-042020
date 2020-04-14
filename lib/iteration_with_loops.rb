@@ -7,7 +7,7 @@ while src.length > count do
   inner_count = 0 
   while src[count] > inner_count do
     if src[count][inner_count] % 2 == 0
-      p array_of_arrays[count][inner_count]
+      p src[count][inner_count]
     end
       inner_count += 1 
     end
